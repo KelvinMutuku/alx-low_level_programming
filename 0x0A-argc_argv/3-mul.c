@@ -1,6 +1,6 @@
 /*
  * File: 3-mul.c
- * Auth: Brennan D Baraban
+ * Auth: Kelvin Mutuku
  */
 
 #include <stdio.h>
