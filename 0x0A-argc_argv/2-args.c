@@ -1,6 +1,6 @@
 /*
  * File: 2-args.c
- * Auth: Brennan D Baraban
+ * Auth: Kelvin mutuku
  */
 
 #include <stdio.h>
