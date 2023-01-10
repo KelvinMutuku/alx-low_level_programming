@@ -1,39 +1,68 @@
-/*
- * File: 1-strdup.c
- * Auth: Kelvin Mutuku
+#include "main.h"
+/**
+ *_strlen - count array
+ *@s: array of elements
+ *Return: 1
  */
 
-#include "holberton.h"
-#include <stdlib.h>
+int _strlen(char *s)
+{
+unsigned int i;
+
+i = 0;
+while (s[i] != '\0') /*count character of string*/
+{
+i++;
+}
+
+return (i);
+}
 
 /**
- * _strdup - Returns a pointer to a newly-allocated space in memory
- *           containing a copy of the string given as parameter.
- * @str: The string to be copied.
- *
- * Return: If str == NULL or insufficient memory is available - NULL.
- *         Otherwise - a pointer to the duplicated string.
+ *_strcpy - copy arrays
+ *@src: array of elements
+ *@dest: dest array
+ *Return: dest
  */
+
+char *_strcpy(char *dest, char *src)
+{
+int i = 0;
+
+while (src[i] != '\0')
+{
+dest[i] = src[i];
+i++;
+}
+dest[i] = '\0';
+
+return (dest);
+}
+
+/**
+ *_strdup - array for prints a string
+ *@str: array of elements
+ *Return: pointer
+ */
+
 char *_strdup(char *str)
 {
-	char *duplicate;
-	int index, len = 0;
+char *dst;
+unsigned int size;
 
-	if (str == NULL)
-		return (NULL);
+if (str == 0)
+{
+return (NULL);
+}
 
-	for (index = 0; str[index]; index++)
-		len++;
+size = _strlen(str) + 1;
 
-	duplicate = malloc(sizeof(char) * (len + 1));
+dst = (char *) malloc(size *sizeof(char));
 
-	if (duplicate == NULL)
-		return (NULL);
-
-	for (index = 0; str[index]; index++)
-		duplicate[index] = str[index];
-
-	duplicate[len] = '\0';
-
-	return (duplicate);
+if (dst == 0)
+{
+return (NULL);
+}
+_strcpy(dst, str);
+return (dst);
 }
