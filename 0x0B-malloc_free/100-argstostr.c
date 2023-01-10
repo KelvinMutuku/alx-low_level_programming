@@ -1,50 +1,43 @@
-/*
- * File: 5-argstostr.c
- * Auth: Kelvin Mutuku
- */
-
-#include "holberton.h"
-#include <stdlib.h>
-
+#include "main.h"
 /**
- * argstostr - Concatenates all arguments of the program into a string;
- *             arguments are separated by a new line in the string.
- * @ac: The number of arguments passed to the program.
- * @av: An array of pointers to the arguments.
- *
- * Return: If ac == 0, av == NULL, or the function fails - NULL.
- *         Otherwise - a pointer to the new string.
+ * argstostr - prints args
+ * @ac: takes in width of grid
+ * @av: height of grid
+ * Return: the args one line at a time
  */
+
 char *argstostr(int ac, char **av)
 {
 	char *str;
-	int arg, byte, index, size = ac;
+	int count = 0, a = 0, b = 0, c = 0;
 
 	if (ac == 0 || av == NULL)
 		return (NULL);
-
-	for (arg = 0; arg < ac; arg++)
+	while (a < ac)
 	{
-		for (byte = 0; av[arg][byte]; byte++)
-			size++;
+		b = 0;
+		while (av[a][b] != '\0')
+		{
+			count++;
+			b++;
+		}
+		a++;
 	}
-
-	str = malloc(sizeof(char) * size + 1);
-
+	count = count + ac + 1;
+	str = malloc(sizeof(char) * count);
 	if (str == NULL)
-		return (NULL);
-
-	index = 0;
-
-	for (arg = 0; arg < ac; arg++)
 	{
-		for (byte = 0; av[arg][byte]; byte++)
-			str[index++] = av[arg][byte];
-
-		str[index++] = '\n';
+		return (NULL);
 	}
-
-	str[size] = '\0';
-
+	for (a = 0; a < ac; a++)
+	{
+		for (b = 0; av[a][b] != '\0'; b++)
+		{
+			str[c] = av[a][b];
+			c++;
+		}
+		str[c] = '\n';
+		c++;
+	}
 	return (str);
 }
