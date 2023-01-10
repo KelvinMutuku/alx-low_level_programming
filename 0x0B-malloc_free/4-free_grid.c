@@ -1,22 +1,19 @@
-/*
- * File: 4-free_grid.c
- * Auth: Kelvin Mutuku
- */
-
-#include "holberton.h"
-#include <stdlib.h>
-
+#include "main.h"
 /**
- * free_grid - Frees a 2-dimensional array of integers.
- * @grid: The 2-dimensional array of integers to be freed.
- * @height: The height of grid.
+ * free_grid - allocates a grid, make space and free space
+ * @grid: takes in width of grid
+ * @height: height of grid
+ * Return: free grid
  */
+
 void free_grid(int **grid, int height)
 {
-	int index;
+	int i;
 
-	for (index = 0; index < height; index++)
-		free(grid[index]);
+	for (i = 0; i < height; i++)
+	{
+		free(grid[i]);
+	}
 
 	free(grid);
 }
