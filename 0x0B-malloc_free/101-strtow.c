@@ -1,8 +1,9 @@
 /*
- * File: 100-strtow.c
- * Auth: Kelvin Mutuku */
+ * File: 101-strtow.c
+ * Auth: sam tech
+ */
 
-#include "holberton.h"
+#include "main.h"
 #include <stdlib.h>
 
 int word_len(char *str);
