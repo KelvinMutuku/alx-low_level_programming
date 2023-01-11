@@ -1,4 +1,9 @@
-#include "holberton.h"
+/*
+ * File: 3-strspn.c
+ * Auth: Kelvin mutuku
+ */
+
+#include "main.h"
 
 /**
  * _strspn - Gets the length of a prefix substring.
@@ -6,9 +11,8 @@
  * @accept: The prefix to be measured.
  *
  * Return: The number of bytes in s which
- * consist only of bytes from accept.
+ *         consist only of bytes from accept.
  */
-
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int bytes = 0;
