@@ -1,4 +1,9 @@
-#include "holberton.h"
+/*
+ * File: 8-print_diagsums.c
+ * Auth: Kelvin Mutuku
+ */
+
+#include "main.h"
 #include <stdio.h>
 
 /**
