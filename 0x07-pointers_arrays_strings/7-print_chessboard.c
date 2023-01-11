@@ -1,4 +1,9 @@
-#include "holberton.h"
+/*
+ * File: 7-print_chessboard.c
+ * Auth: Kelvin Mutuku
+ */
+
+#include "main.h"
 
 /**
  * print_chessboard - Prints a chessboard.
