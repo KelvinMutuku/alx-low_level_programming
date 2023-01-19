@@ -1,4 +1,4 @@
-#include "main.h"
+i#include "main.h"
 
 #include <stdio.h>
 
@@ -10,12 +10,10 @@
 
 
 
-int _putchar(char c)
+int _abs(int n)
 
 {
 
-	    return putchar(c);
+	    return abs(n);
 
 }
-
-

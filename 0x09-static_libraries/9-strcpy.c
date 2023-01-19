@@ -8,14 +8,10 @@
 
 #include <string.h>
 
-
-
-int _putchar(char c)
+char *_strcpy(char *dest, char *src)
 
 {
 
-	    return putchar(c);
+	    return strcpy(dest, src);
 
 }
-
-

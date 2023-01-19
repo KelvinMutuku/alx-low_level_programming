@@ -10,11 +10,11 @@
 
 
 
-int _putchar(char c)
+int _isalpha(int c)
 
 {
 
-	    return putchar(c);
+	    return isalpha(c);
 
 }
 

@@ -10,12 +10,10 @@
 
 
 
-int _putchar(char c)
+int _strcmp(char *s1, char *s2)
 
 {
 
-	    return putchar(c);
+	    return strcmp(s1, s2);
 
 }
-
-

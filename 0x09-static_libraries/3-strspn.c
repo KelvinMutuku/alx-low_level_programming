@@ -10,12 +10,10 @@
 
 
 
-int _putchar(char c)
+unsigned int _strspn(char *s, char *accept)
 
 {
 
-	    return putchar(c);
+	    return strspn(s, accept);
 
 }
-
-
