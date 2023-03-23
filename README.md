@@ -1,71 +1,26 @@
-# C - Bit manipulation
+# 0x00. C - Hello, World
+Entry To C Programming
 
-In this project, I learned how to manipulate bits and use the
-bitwise operators `>>`, `<<`, `&`, `|`, and `^` in C.
+## Repository 
+* **alx-low_level_programming:** This repository is one of the several tracks I'm learning to become a Full Stack Software Engineer at ALX Coding School.
+
+## General Requirements
+* Allowed editors: **vi**, **vim**, **emacs**
+* All files is compiled on **Ubuntu 20.04 LTS using gcc**, using the options **-Wall -Werror -Wextra -pedantic -std=gnu89**
+* All files ends with a new line
+* There is **README.md** file at the root of the **alx-low_level_programming**
 
 
-## Helper File :raised_hands:
-
-* [_putchar.c](./_putchar.c): C function that writes a character to `stdout`.
-
-## Header File :file_folder:
-
-* [holberton.h](./holberton.h): Header file containing prototypes for all
-functions written in the project.
-
-| File                   | Prototype                                                           |
-| ---------------------- | ------------------------------------------------------------------- |
-| `0-binary_to_uint.c`   | `unsigned int binary_to_uint(const char *b);`                       |
-| `1-print_binary.c`     | `void print_binary(unsigned long int n);`                           |
-| `2-get_bit.c`          | `int get_bit(unsigned long int n, unsigned int index);`             |
-| `3-set_bit.c`          | `int set_bit(unsigned long int *n, unsigned int index);`            |
-| `4-clear_bit.c`        | `int clear_bit(unsigned long int *n, unsigned int index);`          |
-| `5-flip_bits.c`        | `unsigned int flip_bits(unsigned long int n, unsigned long int m);` |
-| `100-get_endianness.c` | `int get_endianness(void);`                                         |
-
-## Tasks :page_with_curl:
-
-* **0. 0**
-  * [0-binary_to_uint.c](./0-binary_to_uint.c): C function that converts a binary number
-  to an `unsigned int`.
-  * The parameter `b` is a pointer to a string of `0` and `1` characters.
-  * If `b` is `NULL` or there are one or more characters in `b` that are
-  not `0` or `1` - returns `0`.
-  * Otherwise - returns the converted number.
-
-* **1. 1**
-  * [1-print_binary.c](./1-print_binary.c): C function that prints the binary representation
-  of a number.
-
-* **2. 10**
-  * [2-get_bit.c](./2-get_bit.c): C function that returns the value of a bit at a
-  given index.
-  * Indices start at `0`.
-  * If an error occurs - returns `-1`.
-  * Otherwise - returns the value of the bit at the given index.
-
-* **3. 11**
-  * [3-set_bit.c](./3-set_bit.c): C function that sets the value of a bit at a given index
-  to `1`.
-  * If an error occurs - returns `-1`.
-  * Otherwise - returns `1`.
-
-* **4. 100**
-  * [4-clear_bit.c](./4-clear_bit.c): C function that sets the value of a bit at
-  a given index to `0`.
-  * If an error occurs - returns `-1`.
-  * Otherwise - returns `1`.
-
-* **5. 101**
-  * [5-flip_bits.c](./5-flip_bits.c): C function that returns the number of bits needed
-  to be flipped to get from one number to another.
-
-* **6. Endianness**
-  * [100-get_endianness.c](./100-get_endianness.c): C function that checks the endianness.
-  * If big-endian - returns `0`.
-  * If little-endian - returns `1`.
-
-* **7. Crackme3**
-  * [101-password](./101-password): File containing the password for the
-  [crackme3](https://github.com/holbertonschool/0x13.c) executable.
-My first readme
+## Directories worked on:
+| S/N   |       Directories          |  S/N |		Directories	     |
+|:-----:|:--------------------:|:-----|:--------------------:|
+|  1.   | [0x00-hello_world](https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/0x00-hello_world)|  11.   | [0x0A-argc_argv](https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/0x0A-argc_argv)|
+|  2.   |[0x01-variables_if_else_while](https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/0x01-variables_if_else_while) |  12.   |[0x0B-malloc_free](https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/0x0B-malloc_free) |
+|  3.   | [0x02-functions_nested_loops](https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/0x02-functions_nested_loops)|  13.  |[0x0C-more_malloc_free](https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/0x0C-more_malloc_free) |
+|  4.   |[0x03-debugging](https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/0x03-debugging) | 14.   |[0x0D-preprocessor](https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/0x0D-preprocessor) |
+|  5.   | [0x04-more_functions_nested_loops](https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops)|  15.   | [0x0E-structures_typedef](https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/0x0E-structures_typedef)|
+|  6.   |[0x05-pointers_arrays_strings](https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings) |
+|  7.   | [0x06-pointers_arrays_strings](https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings)|
+|  8.   |[0x07-pointers_arrays_strings](https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings) |
+|  9.   | [0x08-recursion](https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/0x08-recursion)|
+|  10.   |[0x09-static_libraries](https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/0x09-static_libraries) |
