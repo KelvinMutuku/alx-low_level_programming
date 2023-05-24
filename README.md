@@ -25,7 +25,7 @@ Entry To C Programming
 |  9.   | [0x08-recursion](https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/0x08-recursion)|
 |  10.   |[0x09-static_libraries](https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/0x09-static_libraries) |
 |  11.   | [0x10-variadic_functions](https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/0x10-variadic_functions) |
-|  12.   | [0x11. C - printf]([https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/](https://github.com/Irene-Chebet/printf/tree/d1d0eec1f7af0d4872da34e0e840d10cb0fca5ee)) |
+|  12.   | [0x11. C - printf](https://github.com/Irene-Chebet/printf/tree/d1d0eec1f7af0d4872da34e0e840d10cb0fca5ee) |
 |  13.   | [0x12-singly_linked_lists](https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/0x12-singly_linked_lists) |
 |  14.   | [0x13-more_singly_linked_lists](https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/0x13-more_singly_linked_lists) |
 |  15.   | [0x14-bit_manipulation](https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/0x14-bit_manipulation) |
