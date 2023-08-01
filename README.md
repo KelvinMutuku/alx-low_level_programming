@@ -40,4 +40,7 @@ Entry To C Programming
 |  24.   | [0x0E-structures_typedef](https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/0x0E-structures_typedef) |
 |  25.   | [0x0F-function_pointers](https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/0x0F-function_pointers) |
 |  26.   | [0x1A-hash_tables](https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/0x1A-hash_tables) |
-|  27.   | [0x1C-makefiles](https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/0x1C-makefiles) |
+|  27.   | [0x1B. C - Sorting algorithms & Big O](https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/sorting_algorithms) |
+|  28.   | [0x1C-makefiles](https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/0x1C-makefiles) |
+|  29.   | [0x1D. C - Binary trees ](https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/binary_trees) |
+|  30.   | [0x1E. C - Search Algorithms](https://github.com/KelvinMutuku/alx-low_level_programming/tree/master/0x1E-search_algorithms) |
